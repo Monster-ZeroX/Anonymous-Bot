@@ -1,6 +1,7 @@
 import logging
 from pyrogram import Client
 from vars import var
+from pathlib import path
 
 logging.basicConfig(level=logging.INFO)
 
