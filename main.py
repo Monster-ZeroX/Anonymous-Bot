@@ -2,6 +2,8 @@ import logging
 from pyrogram import Client
 from vars import var
 from pathlib import path
+if Path("friday.mp3").is_file():
+      os.remove("friday.mp3")
 
 logging.basicConfig(level=logging.INFO)
 
